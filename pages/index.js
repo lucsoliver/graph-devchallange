@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
+import graphPic from "../images/team.jpg";
+
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -22,6 +24,10 @@ export default function Home() {
         </div>
       </header>
       <main className={styles.main}>
+        <div>
+          <Image src={graphPic} alt="graphic picture" />
+        </div>
+
         <h1 className={styles.title}>Create amazing graphics</h1>
 
         <p className={styles.description}>
@@ -29,7 +35,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <button>
+          <button className={styles.button}>
             <span>Start Now</span>
           </button>
         </div>
