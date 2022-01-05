@@ -13,20 +13,22 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header>
-        <div className={styles.card}>
-          <h2>DevChallange</h2>
+      <header className={styles.header}>
+        <h2>DevChallange</h2>
 
-          <nav className={styles.nav}>
-            <h3>Home</h3>
-            <h3>Features</h3>
-            <h3>Contact</h3>
-          </nav>
-        </div>
+        <nav className={styles.nav}>
+          <h3>Home</h3>
+          <h3>Features</h3>
+          <h3>Contact</h3>
+        </nav>
       </header>
       <main className={styles.main}>
-        <div className={styles.boxModel}>
-          <Image src={graphPic} alt="graphic picture" className="picture" />
+        <div className={styles.boxImage}>
+          <Image
+            src={graphPic}
+            alt="graphic picture"
+            className={styles.picture}
+          />
         </div>
         <h1 className={styles.title}>Create amazing graphics</h1>
         <p className={styles.description}>
