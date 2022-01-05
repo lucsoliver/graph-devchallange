@@ -24,12 +24,10 @@ export default function Home() {
         </div>
       </header>
       <main className={styles.main}>
-        <div>
-          <Image src={graphPic} alt="graphic picture" />
+        <div className={styles.boxModel}>
+          <Image src={graphPic} alt="graphic picture" className="picture" />
         </div>
-
         <h1 className={styles.title}>Create amazing graphics</h1>
-
         <p className={styles.description}>
           Colaborate and create beaultiful graphics with your team
         </p>
@@ -47,7 +45,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{" "}
+          Powered by
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>

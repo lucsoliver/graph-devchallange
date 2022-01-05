@@ -40,7 +40,7 @@
 }
 
 .title {
-  margin: 0;
+  margin: 1.6rem 0;
   line-height: 1.15;
   font-size: 3rem;
 }
@@ -51,7 +51,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 1.4rem 0;
   line-height: 1.5;
   font-size: 1.3rem;
 }
@@ -74,6 +74,21 @@
 }
 
 .button {
+  margin: 2.5rem 0;
+}
+
+.boxModel {
+  display: flex;
+  background-color: transparent;
+  padding: 40px;
+  margin: 20px;
+  border: 20px solid #000;
+  border-radius: 2%;
+}
+
+.picture {
+  width: 50%;
+  height: 50%;
 }
 
 .card {
