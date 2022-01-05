@@ -14,8 +14,9 @@ export default function Home() {
       </Head>
 
       <header>
-        <div>
+        <div className={styles.card}>
           <h2>DevChallange</h2>
+
           <nav className={styles.nav}>
             <h3>Home</h3>
             <h3>Features</h3>

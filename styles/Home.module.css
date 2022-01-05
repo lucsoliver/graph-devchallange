@@ -47,6 +47,7 @@
 
 .title,
 .description {
+  color: #766f68;
   text-align: center;
 }
 
@@ -61,8 +62,7 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: "Roboto", Helvetica, sans-serif;
 }
 
 .grid {
@@ -74,6 +74,9 @@
 }
 
 .button {
+  background-color: #d2872c;
+  border-radius: 2%;
+  color: #fff;
   margin: 2.5rem 0;
 }
 
@@ -91,34 +94,31 @@
   height: 50%;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
-
-.card:hover,
+/* .card:hover,
 .card:focus,
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
+} */
+
+.header h2 {
+  display: flex;
+  color: #d2872c;
+  /* margin: 0 0 1rem 0;
+  font-size: 1.5rem; */
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.nav h3 {
+  margin: 0 1.2rem 0 1.2rem;
+}
+
+.boxCard {
 }
 
 .logo {
