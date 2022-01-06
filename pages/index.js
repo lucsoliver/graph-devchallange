@@ -37,7 +37,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <button className={styles.button}>
-            <span>Start Now</span>
+            <span className={styles.buttonText}>Start Now</span>
           </button>
         </div>
       </main>

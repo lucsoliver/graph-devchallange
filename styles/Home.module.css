@@ -75,9 +75,9 @@
 
 .button {
   width: 20vw;
-  height: 10vh;
+  height: 8vh;
   background-color: #d2872c;
-  border-radius: 8px;
+  border-radius: 15px;
   color: #fff;
   margin: 2.5rem 0;
   border: none;
@@ -85,12 +85,17 @@
   cursor: pointer;
 }
 
+.buttonText {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
 .boxImage {
   display: flex;
   background-color: transparent;
-  padding: 40px;
-  margin: 20px;
-  border: 20px solid #000;
+  /* padding: 40px;
+  margin: 20px; */
+  /* border: 20px solid #000; */
   border-radius: 2%;
 }
 
@@ -145,5 +150,8 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .button {
+    width: 34vw;
   }
 }
