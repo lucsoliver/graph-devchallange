@@ -69,15 +69,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  /* width: 50px; */
+  /* flex-wrap: wrap; */
 }
 
 .button {
+  width: 20vw;
+  height: 10vh;
   background-color: #d2872c;
-  border-radius: 2%;
+  border-radius: 8px;
   color: #fff;
   margin: 2.5rem 0;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .boxImage {
