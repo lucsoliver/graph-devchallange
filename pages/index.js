@@ -23,22 +23,24 @@ export default function Home() {
         </nav>
       </header>
       <main className={styles.main}>
+        <div className={styles.boxModel}>
+          <h1 className={styles.title}>Create amazing graphics</h1>
+          <p className={styles.description}>
+            Colaborate and create beaultiful graphics with your team
+          </p>
+
+          <div className={styles.grid}>
+            <button className={styles.button}>
+              <span className={styles.buttonText}>Start Now</span>
+            </button>
+          </div>
+        </div>
         <div className={styles.boxImage}>
           <Image
             src={graphPic}
             alt="graphic picture"
             className={styles.picture}
           />
-        </div>
-        <h1 className={styles.title}>Create amazing graphics</h1>
-        <p className={styles.description}>
-          Colaborate and create beaultiful graphics with your team
-        </p>
-
-        <div className={styles.grid}>
-          <button className={styles.button}>
-            <span className={styles.buttonText}>Start Now</span>
-          </button>
         </div>
       </main>
 
