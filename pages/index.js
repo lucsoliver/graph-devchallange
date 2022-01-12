@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import graphPic from "../images/team.jpg";
-
+import Menu from "../components/Menu";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -15,13 +15,9 @@ export default function Home() {
 
       <header className={styles.header}>
         <h2>DevChallange</h2>
-
-        <nav className={styles.nav}>
-          <h3>Home</h3>
-          <h3>Features</h3>
-          <h3>Contact</h3>
-        </nav>
+        <Menu />
       </header>
+
       <main className={styles.main}>
         <div className={styles.boxModel}>
           <h1 className={styles.title}>Create amazing graphics</h1>
