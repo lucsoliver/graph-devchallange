@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .title {
@@ -57,7 +58,6 @@
 }
 
 .boxModel {
-  /* background-color: rgb(151, 58, 58); */
   width: 300vw;
 }
 
@@ -99,6 +99,9 @@
 }
 
 @media (max-width: 600px) {
+  .container {
+    padding: 0 0 0 2rem;
+  }
   .grid {
     width: 100%;
     flex-direction: column;
@@ -111,10 +114,6 @@
   }
 
   .main {
-    flex: 1;
     display: block;
-    flex-direction: row;
-    justify-content: space-between;
-    /* align-items: center; */
   }
 }
